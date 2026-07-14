@@ -95,7 +95,7 @@ core_fraction = 5. Этот параметр задаёт долю ресурс�
 
 В качестве решения приложите вывод значений ip-адресов команды ```terraform output```.
 
-Файл outputs.tf 
+Файл outputs.tf     https://github.com/anastasiazveryukova/-Terraform.-Yandex-Cloud/blob/main/02/src/outputs.tf
 
 ```
 output "vm_external_ip_address_develop" {
@@ -110,6 +110,7 @@ description = "vm external ip"
 
 ```
 
+
 <img width="1673" height="661" alt="Снимок экрана 2026-07-14 113149" src="https://github.com/user-attachments/assets/03610da3-b6a6-4833-ae74-5060981ace1f" />
 
 ### Задание 5
@@ -118,7 +119,7 @@ description = "vm external ip"
 2. Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
 3. Примените изменения.
 
-Файл  locals.tf
+Файл  locals.tf    https://github.com/anastasiazveryukova/-Terraform.-Yandex-Cloud/blob/main/02/src/locals.tf
 
 ```
 locals {
@@ -170,7 +171,7 @@ locals {
 5. Найдите и закоментируйте все, более не используемые переменные проекта.
 6. Проверьте terraform plan. Изменений быть не должно.
 
-Описываю переменные ".._cores",".._memory",".._core_fraction" в vms_platform.tf:
+Описываю переменные ".._cores",".._memory",".._core_fraction" в vms_platform.tf:      https://github.com/anastasiazveryukova/-Terraform.-Yandex-Cloud/blob/main/02/src/vms_platform.tf
 
 <img width="949" height="319" alt="Снимок экрана 2026-07-14 131350" src="https://github.com/user-attachments/assets/17b31194-dfd1-49dc-bb9d-1ee692285277" />
 
@@ -178,7 +179,7 @@ locals {
 
 <img width="653" height="214" alt="Снимок экрана 2026-07-14 131635" src="https://github.com/user-attachments/assets/57b64c24-6f56-4fc3-a939-9bf37b405cb0" />
 
-Вношу изменения в файл main.tf и комментируемые не используемые переменные
+Вношу изменения в файл main.tf и комментируемые не используемые переменные        https://github.com/anastasiazveryukova/-Terraform.-Yandex-Cloud/blob/main/02/src/main.tf
 
 <img width="720" height="658" alt="Снимок экрана 2026-07-14 131713" src="https://github.com/user-attachments/assets/2601c93b-72a8-4f3e-8a73-3fa72c43b9f6" />
 
